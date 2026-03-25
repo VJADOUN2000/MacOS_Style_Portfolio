@@ -2,12 +2,10 @@ import dayjs from "dayjs";
 
 import { navIcons, navLinks } from "../constants/index";
 
-
-
 const Navbar =() => {
     return <nav>
         <div>
-            <img src ="/public/images/logo.svg" alt="logo"l/>
+            <img src ="/images/logo.svg" alt="logo"/>
             <p className="font-bold">Vikrant's Portfolio</p>
 
             <ul>
